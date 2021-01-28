@@ -10,8 +10,6 @@ function updateMap(num){
 					        // 设置标题和副标题及副标题跳转链接
 					        title: {
 					            text: '新冠疫情-国内累计数据',
-					            subtext: '数据来源--开课吧',
-					            sublink: 'https://www.kaikeba.com'
 					        },
 					        // 数据提示框
 					        tooltip: {
@@ -64,8 +62,6 @@ function updateMap(num){
 					        // 设置标题和副标题及副标题跳转链接
 					        title: {
 					            text: '新冠疫情-国内新增数据',
-					            subtext: '数据来源--开课吧',
-					            sublink: 'https://www.kaikeba.com'
 					        },
 					        // 数据提示框
 					        tooltip: {
@@ -118,8 +114,6 @@ function updateMap(num){
 					    // 设置标题和副标题及副标题跳转链接
 					    title: {
 					      text: '新冠疫情-全球累计数据',
-					      subtext: '数据来源--开课吧',
-					      sublink: 'https://www.kaikeba.com'
 					    },
 					    // 数据提示框
 					    tooltip: {
@@ -181,8 +175,6 @@ function updateMap(num){
 					    // 设置标题和副标题及副标题跳转链接
 					    title: {
 					      text: '新冠疫情-全球新增数据',
-					      subtext: '数据来源--开课吧',
-					      sublink: 'https://www.kaikeba.com'
 					    },
 					    // 数据提示框
 					    tooltip: {

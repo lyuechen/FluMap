@@ -1,4 +1,12 @@
-<%@ page session="false" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
+<%@ page session="false" pageEncoding="UTF-8" contentType="text/html;charset=UTF-8"%> <!---->
+<!--
+	session: 当前 JSP 页面禁用 session 隐含变量
+	pageEncoding: jsp文件本身用的编码方式为UTF-8
+
+	浏览器：
+		contentType：指定响应的 HTTP 内容类型
+		charset: 在浏览器的编码方式为UTF-8
+-->
 <%@ page import = "java.net.URL"%>
 <%@ page import = "java.net.URLConnection"%>
 <%@ page import = "java.io.InputStream"%>
@@ -28,7 +36,7 @@
 		<script src="http://cdn.zaixianke.com/world.js"></script>
 	</head>
 <body>
-	<div id="main" style="width: 100%;height:600px;"></div> <br>
+	<div id="main" style="width: 100%;height:650px;"></div> <br>
 	<div style="text-align:center">
 		<a style="color:#333" class="control" align="center" href="javascript:updateMap(0)">国内累计</a>
 		<a style="color:#333" class="control" align="center" href="javascript:updateMap(1)">国内新增</a>
